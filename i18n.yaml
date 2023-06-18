@@ -142,6 +142,35 @@ translations:
       title-reading-secret: Lecture du secret&hellip;
       title-secret-create-disabled: Création secrète désactivée...
       title-secret-created: Secret créé!
+  ja:
+    deeplLanguage: ja
+    translations:
+      alert-secret-not-found: これはあなたが探している秘密ではありません... - ここに秘密があると期待した場合、他の誰かがすでにリンクを開いている可能性があるため、危険にさらされる可能性があります。
+      alert-something-went-wrong: 何かが間違っていた。大変申し訳ないのですが...。
+      btn-create-secret: 秘密を作る！
+      btn-new-secret: ニューシークレット
+      btn-reveal-secret: その秘密を教えてください！
+      btn-show-explanation: どのような仕組みになっているのでしょうか？
+      items-explanation:
+        - このページのフィールドにシークレットを入力すると
+        - ブラウザは、生成されたパスワードを使って秘密を暗号化する
+        - 暗号化された秘密だけがサーバーに送信されます（平文の秘密もパスワードも送信されません！）。
+        - サーバーは暗号化された秘密を一定時間保存する
+        - IDと復号パスワードを含む表示されたURLを相手に渡すと
+        - 受信者が秘密を閲覧できるのは一度だけで、閲覧できない場合は、その秘密が他の人に閲覧されている可能性があります！
+        - 暗号化された秘密が一度取り出された後、サーバーから削除される
+      label-secret-data: シークレットデータです：
+      text-burn-hint: このURLに自分でアクセスすると、秘密が壊れてしまうので、絶対にしないでください。他の人に渡してください！
+      text-hint-burned: <strong>注目です：</strong>これは一度しか見られません。ページを再読み込みするとすぐに秘密は消えてしまうので、今すぐコピーしておくといいかもしれませんね。
+      text-powered-by: Powered by
+      text-pre-reveal-hint: このボタンをクリックすると秘密が明かされますが、そうすると秘密が壊れるので注意してください。一度しか見ることができません！
+      text-pre-url: あなたの秘密は、このURLを使って作成され、保存されています：
+      text-secret-create-disabled: この場合、新しいシークレットの作成は無効となります。
+      title-explanation: こんな感じで...。
+      title-new-secret: 新しいシークレットを作成する
+      title-reading-secret: あなたの秘密を読み解く・・・。
+      title-secret-create-disabled: シークレット作成不可・・・。
+      title-secret-created: シークレットを作成しました！
   lv:
     deeplLanguage: lv
     translations:
